@@ -6,9 +6,8 @@ if $check_brew ; then
 	exit
 fi
 
-# a nice temrinal
 brew install iterm2
-# handling python versions
-brew install pyenv
-# tool for json
-brew install jq
+brew install pyenv	# for handling python versions
+brew install jq		# json parser
+brew install fzf
+$(brew --prefix)/opt/fzf/install	# install key bindings
