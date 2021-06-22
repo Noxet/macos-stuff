@@ -11,4 +11,5 @@ A collection of tools n' stuff for mac
 
 ## Config
 
-place the .zsh file in .oh-my-zsh/custom folder
+- place the .zsh file in .oh-my-zsh/custom folder
+- add the "sudo" plugin to ohmyzsh: add "sudo" to the plugins list in the `.zshrc` file, i.e., `plugins=(... sudo)`
