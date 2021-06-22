@@ -6,5 +6,9 @@ if $check_brew ; then
 	exit
 fi
 
+# a nice temrinal
 brew install iterm2
+# handling python versions
 brew install pyenv
+# tool for json
+brew install jq
